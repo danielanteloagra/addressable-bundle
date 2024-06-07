@@ -2,6 +2,7 @@
 
 namespace Addressable\Bundle\Model\Traits\ORM;
 
+use Doctrine\ORM\Mapping as ORM;
 use Addressable\Bundle\Entity\Address;
 
 /**
@@ -12,6 +13,7 @@ class RelatedAddressableTrait
     /**
      * @ManyToOne(targetEntity="Addressable\Bundle\Entity\Address")
      */
+    #[ORM\ManyToOne(targetEntity: Address::class)]
     private $address;
 
     /**

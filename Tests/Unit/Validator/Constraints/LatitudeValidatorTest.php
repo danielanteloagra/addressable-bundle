@@ -1,6 +1,6 @@
 <?php
 
-namespace Addressable\Bundle\Tests\Unit\Form\Type;
+namespace Addressable\Bundle\Tests\Unit\Validator\Constraints;
 
 use Addressable\Bundle\Validator\Constraints\Latitude;
 use Addressable\Bundle\Validator\Constraints\LatitudeValidator;

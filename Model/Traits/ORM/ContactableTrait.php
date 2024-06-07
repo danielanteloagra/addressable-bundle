@@ -17,6 +17,7 @@ trait ContactableTrait
      *
      * @ORM\Column(length=100, nullable=true)
      */
+    #[ORM\Column(type: 'string', length: 100, nullable: true)]
     protected $email;
 
     /**
@@ -24,6 +25,7 @@ trait ContactableTrait
      *
      * @ORM\Column(length=30, nullable=true)
      */
+    #[ORM\Column(type: 'string', length: 30, nullable: true)]
     protected $phoneNumber;
 
     /**
@@ -31,5 +33,6 @@ trait ContactableTrait
      *
      * @ORM\Column(length=30, nullable=true)
      */
+    #[ORM\Column(type: 'string', length: 30, nullable: true)]
     protected $fax;
 }
